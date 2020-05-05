@@ -1,5 +1,5 @@
 {
-  "name": "critools",
+  "name": "node-critools",
   "version": "1.0.0",
   "description": "Library for extracting Cri-based game audio files",
   "main": "dist/index.js",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/djzmo/critools.git"
+    "url": "git+https://github.com/djzmo/node-critools.git"
   },
   "author": "kohos",
   "license": "MIT",
-  "homepage": "https://github.com/djzmo/critools#readme",
+  "homepage": "https://github.com/djzmo/node-critools#readme",
   "dependencies": {
     "ts-node": "^8.10.1",
     "typescript": "^3.8.3"
