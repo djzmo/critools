@@ -5,7 +5,7 @@ This library is created as an interface for other node.js apps to be able to acc
 
 ## Usage
 ```
-$ npm install critools
+$ npm install node-critools
 ```
 
 ### Example
