@@ -1,19 +1,25 @@
 {
   "name": "critools",
   "version": "1.0.0",
-  "description": "JavaScript tools for extract audio from game file",
-  "main": "src/index.js",
+  "description": "Library for extracting Cri-based game audio files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kohos/CriTools.git"
+    "url": "git+https://github.com/djzmo/critools.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kohos/CriTools/issues"
+  "author": "kohos",
+  "license": "MIT",
+  "homepage": "https://github.com/djzmo/critools#readme",
+  "dependencies": {
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
   },
-  "homepage": "https://github.com/kohos/CriTools#readme"
+  "devDependencies": {
+    "@types/node": "^13.13.4"
+  }
 }
