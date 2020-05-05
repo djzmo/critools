@@ -1,7 +1,7 @@
 {
   "name": "node-critools",
   "version": "1.0.0",
-  "description": "Library for extracting Cri-based game audio files",
+  "description": "Library for extracting Cri-based audio files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
